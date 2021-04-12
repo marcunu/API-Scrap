@@ -1,6 +1,6 @@
 import geopy
 from geopy.geocoders import Nominatim
-
+import numpy as np
 
 def ciudad(lon_lat):
 
@@ -11,6 +11,7 @@ def ciudad(lon_lat):
         -lon_lat: longitude and latitude.
 
     '''
+    locator = Nominatim(user_agent="myGeocoder")
     coord = lon_lat
     rgeocode = locator.reverse(coord)
     info = rgeocode.raw
@@ -24,7 +25,8 @@ def comunidad(lon_lat):
     Atributtes:
         -lon_lat: longitude and latitude.
         
-    '''    
+    '''
+    locator = Nominatim(user_agent="myGeocoder")    
     coord = lon_lat
     rgeocode = locator.reverse(coord)
     info = rgeocode.raw
@@ -40,7 +42,7 @@ def pais(lon_lat):
         -lon_lat: longitude and latitude.
         
     '''
-
+    locator = Nominatim(user_agent="myGeocoder")
     coord = lon_lat
     rgeocode = locator.reverse(coord)
     info = rgeocode.raw
