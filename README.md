@@ -13,9 +13,9 @@ The project is based on obtaining information about the last races made by me, t
 
 # Documents
 
-* 01 - API information: data collection via API from `Strava`.
-* 02 - Srap infomation: data collection via Web Scraping.
-* 03 - Visualization: graphs on the hypotheses to be analyzed.
+* 01 - API executable: data collection via API from `Strava`.
+* 02 - Srap executable: data collection via Web Scraping.
+* 03 - Visualization: graphs of the information obtained..
 
 
 
@@ -32,7 +32,7 @@ The project is based on obtaining information about the last races made by me, t
 
 # DataFrames
 
-4 different datasets have been generated throughout the project:
+3 different datasets have been generated throughout the project:
 
    * Strava Dataset: information obtained via API.
    * Marathon Dataset: information obtained via Web Scraping.
