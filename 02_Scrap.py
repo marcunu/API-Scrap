@@ -61,8 +61,8 @@ mujeres = corredores.drop([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], axis = 0).set_
 #Exporting files
 print("Exporting files")
 
-hombres.to_csv("./data/marath_hombres2.csv")
-mujeres.to_csv("./data/marath_mujeres2.csv")
+hombres.to_csv("./data/marath_hombres.csv")
+mujeres.to_csv("./data/marath_mujeres.csv")
 
 print("Files exported correctly")
 
